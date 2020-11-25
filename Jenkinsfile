@@ -3,12 +3,7 @@ pipeline {
 stages {  
   stage('code commit')
    {
-     try{
         sh 'https://github.com/beadala/usecase2.git'
-        }
-        catch(err){
-          sh(" echo Error cloning Git bucket")
-        }
         }
 stage('Test') {
 steps {
