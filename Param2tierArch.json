@@ -1,0 +1,42 @@
+[   {
+        "ParameterKey": "VPCCIDR",
+        "ParameterValue": "10.2.0.0/16"
+    },
+    {
+        "ParameterKey": "Publicsubnet1",
+        "ParameterValue": "10.2.0.0/18"
+    },
+    {
+        "ParameterKey": "Privatesubnet1",
+        "ParameterValue": "10.2.128.0/18"
+    },
+    {
+        "ParameterKey": "Publicsubnet2",
+        "ParameterValue": "10.2.64.0/18"
+    },
+    {
+        "ParameterKey": "Privatesubnet2",
+        "ParameterValue": "10.2.192.0/18"
+    },
+    {
+        "ParameterKey": "myKey",
+        "ParameterValue": "PAAS-DevSecOps"
+    },
+    {
+        "ParameterKey": "InstanceTypeParameter",
+        "ParameterValue": "t2.small"
+    },
+    {
+        "ParameterKey": "ImageId",
+        "ParameterValue": "ami-0947d2ba12ee1ff75"
+    },
+    {
+        "ParameterKey": "EmailEndpoint",
+        "ParameterValue": "bmanoj@dxc.com"
+    },
+    {
+        "ParameterKey": "TopicName",
+        "ParameterValue": "PAAS-Jenkins-SNS-Topic"
+    }
+
+]
