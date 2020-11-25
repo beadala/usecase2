@@ -12,7 +12,7 @@ stages {
         }
 stage('Test') {
 steps {
-sh '/usr/local/bin/cfn-lint ./*.json'
+sh '/usr/local/bin/cfn-lint ./2-tier-Arch.json'
 }
 }
 stage('Deploy') {
