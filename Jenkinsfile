@@ -1,6 +1,15 @@
 pipeline {
   agent any
 stages {  
+  stage('install git'){
+            try{
+                sh"sudo yum install git -y"
+                }
+            catch(err)
+                {
+                    sh"echo error"
+                }
+            }
   stage('code commit')
    {
         sh 'https://github.com/beadala/usecase2.git'
