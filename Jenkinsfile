@@ -13,7 +13,7 @@
         stage('code commit')
         {
         try{
-            sh 'git clone https://github.dxc.com/ODT/DevOps.git'
+            sh 'git clone https://github.com/beadala/usecase2.git'
         }
         catch(err){
             sh(" echo Error cloning Git bucket")
